@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videofy Studios | AI-Powered Video Production</title>
+  <meta name="description"
+    content="Professional video production powered by artificial intelligence. Transform your ideas into captivating videos with cutting-edge AI technology that delivers professional results.">
+  <meta name="keywords" content="AI video production, video editing, AI video generation, Videofy Studios">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://videofystudios.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Videofy Studios">
+  <meta property="og:title" content="Videofy Studios | AI-Powered Video Production">
+  <meta property="og:description"
+    content="Professional video production powered by artificial intelligence. Innovation in Motion.">
+  <meta property="og:url" content="https://videofystudios.com/">
+  <meta property="og:image" content="images/logo.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Videofy Studios | AI-Powered Video Production">
+  <meta name="twitter:description" content="Professional video production powered by artificial intelligence.">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/vendor/fontawesome/all.min.css">
+
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Flags for progressive enhancement (see css/style.css reveal rules) -->
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ======================================================================
+       Header / Navigation
+       ====================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar navbar-expand-lg" id="siteNav" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" aria-label="Videofy Studios - Home">
+          <img class="brand-logo" src="images/logo.png" alt="Videofy Studios" width="1873" height="486">
+        </a>
+
+        <!-- Toggler opens the offcanvas menu on small screens -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu"
+          aria-controls="mobileMenu" aria-expanded="false" aria-label="Open menu">
+          <span class="navbar-toggler-icon"><span></span></span>
+        </button>
+
+        <!-- Desktop navigation -->
+        <div class="collapse navbar-collapse d-none d-lg-block">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+            <li class="nav-item"><a class="btn btn-gradient nav-cta" href="index.html#contact">Get Started</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile offcanvas menu -->
+  <div class="offcanvas offcanvas-end mobile-menu" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+    <div class="offcanvas-header">
+      <img class="brand-logo" src="images/logo.png" alt="Videofy Studios" width="1873" height="486">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close menu"></button>
+    </div>
+    <div class="offcanvas-body">
+      <nav aria-label="Mobile navigation">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-gradient nav-cta" href="index.html#contact">Get Started Today</a>
+      </nav>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ====================================================================
+         Hero
+         ==================================================================== -->
+    <section class="hero" id="home" aria-label="Welcome to Videofy Studios">
+      <!-- Animated background (canvas + floating shapes + overlay) -->
+      <div class="hero-bg" aria-hidden="true">
+        <canvas class="hero-canvas" id="hero-canvas"></canvas>
+
+        <div class="parallax" data-depth="-20">
+          <div class="hero-orb hero-orb-1"></div>
+        </div>
+        <div class="parallax" data-depth="30">
+          <div class="hero-orb hero-orb-2"></div>
+        </div>
+        <div class="parallax" data-depth="-15">
+          <div class="hero-shape hero-shape-1"></div>
+        </div>
+        <div class="parallax" data-depth="25">
+          <div class="hero-shape hero-shape-2"></div>
+        </div>
+        <div class="parallax" data-depth="-10"><i class="fa-solid fa-brain hero-icon hero-icon-1"></i></div>
+        <div class="parallax" data-depth="15"><i
+            class="fa-solid fa-hand-sparkles hero-icon hero-icon-sm hero-icon-2"></i></div>
+        <div class="parallax" data-depth="-20"><i class="fa-solid fa-wand-magic-sparkles hero-icon hero-icon-3"></i>
+        </div>
+        <div class="parallax" data-depth="12"><i class="fa-solid fa-play hero-icon hero-icon-4"></i></div>
+      </div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <div class="row align-items-center g-5">
+          <!-- Text column -->
+          <div class="col-lg-7 text-center text-lg-start">
+            <span class="hero-badge reveal">NEXT GENERATION VIDEO CREATION</span>
+
+            <h1 class="hero-title reveal" style="transition-delay: 0.05s">
+              <span class="text-gradient">AI-Powered</span> Video Production
+              <span class="hero-subtitle text-gradient d-block">Innovation in Motion</span>
+            </h1>
+
+            <p class="hero-desc reveal" style="transition-delay: 0.1s">
+              Transform your ideas into captivating videos using cutting-edge AI
+              technology that delivers professional results.
+            </p>
+
+            <div class="hero-stats reveal" style="transition-delay: 0.15s">
+              <div class="hero-stat">
+                <span class="icon-chip"><i class="fa-solid fa-globe" aria-hidden="true"></i></span>
+                <span>
+                  <span class="hero-stat-value"><span class="stat-number" data-count="20">0</span>+</span>
+                  <span class="hero-stat-label d-block">Languages</span>
+                </span>
+              </div>
+              <div class="hero-stat">
+                <span class="icon-chip"><i class="fa-solid fa-users" aria-hidden="true"></i></span>
+                <span>
+                  <span class="hero-stat-value"><span class="stat-number" data-count="52000"
+                      data-format="locale">0</span>+</span>
+                  <span class="hero-stat-label d-block">Subscribers</span>
+                </span>
+              </div>
+              <div class="hero-stat">
+                <span class="icon-chip"><i class="fa-solid fa-video" aria-hidden="true"></i></span>
+                <span>
+                  <span class="hero-stat-value"><span class="stat-number" data-count="15000"
+                      data-format="locale">0</span>+</span>
+                  <span class="hero-stat-label d-block">Videos</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="hero-cta reveal" style="transition-delay: 0.2s">
+              <a class="btn btn-gradient btn-lg" href="index.html#contact">
+                Get Started Today
+                <i class="fa-solid fa-rocket" aria-hidden="true"></i>
+              </a>
+              <button type="button" class="btn btn-demo btn-lg" data-bs-toggle="modal" data-bs-target="#videoModal"
+                data-video-id="C1-P1dL3Taw" data-video-title="Videofy Studios Demo Video">
+                <span class="icon-circle"><i class="fa-solid fa-play" aria-hidden="true"></i></span>
+                Watch Demo
+              </button>
+            </div>
+          </div>
+
+          <!-- Demo video card column (desktop only) -->
+          <div class="col-lg-5">
+            <div class="demo-card-wrap d-none d-lg-block reveal" style="transition-delay: 0.25s">
+              <div class="demo-card">
+                <div class="demo-card-inner">
+                  <div class="demo-card-sheen" aria-hidden="true"></div>
+                  <div class="demo-card-bar" aria-hidden="true"></div>
+
+                  <div class="demo-card-play">
+                    <button type="button" class="play-btn" aria-label="Play demo video" data-bs-toggle="modal"
+                      data-bs-target="#videoModal" data-video-id="C1-P1dL3Taw"
+                      data-video-title="Videofy Studios Demo Video">
+                      <span class="play-btn-ring" aria-hidden="true"></span>
+                      <i class="fa-solid fa-play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+
+                  <div class="demo-card-bottom">
+                    <div class="demo-card-info">
+                      <div class="demo-card-meta">
+                        <span class="demo-card-logo">
+                          <img src="images/favicon.png" alt="Videofy Studios logo" width="500" height="500"
+                            loading="lazy">
+                        </span>
+                        <span>
+                          <button type="button" class="demo-card-title-btn" data-bs-toggle="modal"
+                            data-bs-target="#videoModal" data-video-id="C1-P1dL3Taw"
+                            data-video-title="Videofy Studios Demo Video">
+                            Demo Video
+                          </button>
+                          <p class="demo-card-sub">Experience our AI capabilities</p>
+                        </span>
+                      </div>
+                      <div class="demo-card-dur">
+                        <p class="dur">13:59</p>
+                        <p class="quality">HD Quality</p>
+                      </div>
+                    </div>
+                    <div class="demo-card-progress" aria-hidden="true">
+                      <div class="fill"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="index.html#about">
+        <span>Scroll to explore</span>
+        <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <!-- ====================================================================
+         About
+         ==================================================================== -->
+    <section class="about-section section-pad" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title reveal" id="about-title">
+            About <span class="text-gradient">Videofy Studios</span>
+          </h2>
+          <div class="section-divider reveal" aria-hidden="true"></div>
+          <p class="section-lead reveal" style="transition-delay: 0.05s">
+            We&rsquo;re revolutionizing video production through the power of
+            artificial intelligence, making professional-quality content
+            accessible to everyone.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4 reveal">
+            <article class="value-card">
+              <span class="icon-chip"><i class="fa-solid fa-robot" aria-hidden="true"></i></span>
+              <h3>AI Innovation</h3>
+              <p>We leverage cutting-edge AI technologies to push the boundaries of what&rsquo;s possible in video
+                production.</p>
+            </article>
+          </div>
+          <div class="col-md-4 reveal" style="transition-delay: 0.1s">
+            <article class="value-card">
+              <span class="icon-chip"><i class="fa-solid fa-video" aria-hidden="true"></i></span>
+              <h3>Creative Excellence</h3>
+              <p>We combine AI capabilities with human creativity to deliver stunning, impactful videos.</p>
+            </article>
+          </div>
+          <div class="col-md-4 reveal" style="transition-delay: 0.2s">
+            <article class="value-card">
+              <span class="icon-chip"><i class="fa-solid fa-lightbulb" aria-hidden="true"></i></span>
+              <h3>Future Vision</h3>
+              <p>We&rsquo;re building the future of content creation, where AI and human creativity work in perfect
+                harmony.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Services
+         ==================================================================== -->
+    <section class="services-section section-pad" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title reveal" id="services-title">
+            Our <span class="text-gradient">Services</span>
+          </h2>
+          <div class="section-divider reveal" aria-hidden="true"></div>
+          <p class="section-lead reveal" style="transition-delay: 0.05s">
+            Explore our cutting-edge AI video capabilities and discover how we
+            can transform your content.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-3 reveal">
+            <article class="service-card">
+              <span class="coming-soon">Coming Soon</span>
+              <span class="icon-chip"><i class="fa-solid fa-robot" aria-hidden="true"></i></span>
+              <h3>AI Video Generation</h3>
+              <p>Create professional videos from text prompts using our advanced AI models.</p>
+              <a class="service-link" href="index.html#contact">Explore Capabilities <i class="fa-solid fa-arrow-right"
+                  aria-hidden="true"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3 reveal" style="transition-delay: 0.1s">
+            <article class="service-card">
+              <span class="coming-soon">Coming Soon</span>
+              <span class="icon-chip"><i class="fa-solid fa-pen-to-square" aria-hidden="true"></i></span>
+              <h3>Automated Editing</h3>
+              <p>Let our AI analyze your footage and create perfectly edited videos automatically.</p>
+              <a class="service-link" href="index.html#contact">Explore Capabilities <i class="fa-solid fa-arrow-right"
+                  aria-hidden="true"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3 reveal" style="transition-delay: 0.2s">
+            <article class="service-card">
+              <span class="icon-chip"><i class="fa-solid fa-clapperboard" aria-hidden="true"></i></span>
+              <h3>Content Creation</h3>
+              <p>Generate engaging video content for social media, marketing, and more.</p>
+              <a class="service-link" href="index.html#contact">Explore Capabilities <i class="fa-solid fa-arrow-right"
+                  aria-hidden="true"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3 reveal" style="transition-delay: 0.3s">
+            <article class="service-card">
+              <span class="coming-soon">Coming Soon</span>
+              <span class="icon-chip"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i></span>
+              <h3>Visual Effects</h3>
+              <p>Add stunning AI-powered visual effects to enhance your videos.</p>
+              <a class="service-link" href="index.html#contact">Explore Capabilities <i class="fa-solid fa-arrow-right"
+                  aria-hidden="true"></i></a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Portfolio
+         ==================================================================== -->
+    <section class="portfolio-section section-pad" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title reveal" id="portfolio-title">
+            Our <span class="text-gradient">Portfolio</span>
+          </h2>
+          <div class="section-divider reveal" aria-hidden="true"></div>
+          <p class="section-lead reveal" style="transition-delay: 0.05s">
+            Explore our showcase of AI-generated and enhanced video content.
+          </p>
+        </div>
+
+        <!-- Filters -->
+        <div class="filter-bar reveal" role="group" aria-label="Filter portfolio by category">
+          <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="filter-btn" data-filter="Horror" aria-pressed="false">Horror</button>
+          <button type="button" class="filter-btn" data-filter="Technology" aria-pressed="false">Technology</button>
+          <button type="button" class="filter-btn" data-filter="Architecture" aria-pressed="false">Architecture</button>
+          <button type="button" class="filter-btn" data-filter="Monk" aria-pressed="false">Monk</button>
+        </div>
+
+        <!-- Portfolio grid -->
+        <div class="row g-4" id="portfolioGrid">
+          <div class="col-sm-6 col-lg-4 portfolio-card reveal" data-category="Horror">
+            <button type="button" class="portfolio-open w-100 border-0 p-0 text-start bg-transparent"
+              data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="S3AkCTbfvIk"
+              data-video-title="Haunted House Experience" data-video-category="Horror"
+              aria-label="Play Haunted House Experience video">
+              <span class="card-media d-block">
+                <img src="images/Category/Horror/haunted_house_experience.webp"
+                  alt="Haunted House Experience video thumbnail" width="1279" height="719" loading="lazy">
+                <span class="card-media-overlay">
+                  <span class="overlay-play"><i class="fa-solid fa-play" aria-hidden="true"></i></span>
+                  <span class="play-hint">Watch Video</span>
+                </span>
+              </span>
+            </button>
+            <div class="card-caption">
+              <span class="d-block card-cat">Horror</span>
+              <h3 class="mb-0">Haunted House Experience</h3>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 portfolio-card reveal" style="transition-delay: 0.1s" data-category="Horror">
+            <button type="button" class="portfolio-open w-100 border-0 p-0 text-start bg-transparent"
+              data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="JUg-ZkjVvm8"
+              data-video-title="Nightmare Chronicles" data-video-category="Horror"
+              aria-label="Play Nightmare Chronicles video">
+              <span class="card-media d-block">
+                <img src="images/Category/Horror/nightmare_chronicles.webp" alt="Nightmare Chronicles video thumbnail"
+                  width="1279" height="719" loading="lazy">
+                <span class="card-media-overlay">
+                  <span class="overlay-play"><i class="fa-solid fa-play" aria-hidden="true"></i></span>
+                  <span class="play-hint">Watch Video</span>
+                </span>
+              </span>
+            </button>
+            <div class="card-caption">
+              <span class="d-block card-cat">Horror</span>
+              <h3 class="mb-0">Nightmare Chronicles</h3>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 portfolio-card reveal" style="transition-delay: 0.2s"
+            data-category="Technology">
+            <button type="button" class="portfolio-open w-100 border-0 p-0 text-start bg-transparent"
+              data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="2RF5-qYR4G0"
+              data-video-title="AI Innovation Showcase" data-video-category="Technology"
+              aria-label="Play AI Innovation Showcase video">
+              <span class="card-media d-block">
+                <img src="images/Category/Technology/ai_innovation_showcase.webp"
+                  alt="AI Innovation Showcase video thumbnail" width="1279" height="719" loading="lazy">
+                <span class="card-media-overlay">
+                  <span class="overlay-play"><i class="fa-solid fa-play" aria-hidden="true"></i></span>
+                  <span class="play-hint">Watch Video</span>
+                </span>
+              </span>
+            </button>
+            <div class="card-caption">
+              <span class="d-block card-cat">Technology</span>
+              <h3 class="mb-0">AI Innovation Showcase</h3>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 portfolio-card reveal" style="transition-delay: 0.3s"
+            data-category="Technology">
+            <button type="button" class="portfolio-open w-100 border-0 p-0 text-start bg-transparent"
+              data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="jfH5wtTzlxM"
+              data-video-title="Space Exploration" data-video-category="Technology"
+              aria-label="Play Space Exploration video">
+              <span class="card-media d-block">
+                <img src="images/Category/Technology/space_exploration.webp" alt="Space Exploration video thumbnail"
+                  width="1279" height="719" loading="lazy">
+                <span class="card-media-overlay">
+                  <span class="overlay-play"><i class="fa-solid fa-play" aria-hidden="true"></i></span>
+                  <span class="play-hint">Watch Video</span>
+                </span>
+              </span>
+            </button>
+            <div class="card-caption">
+              <span class="d-block card-cat">Technology</span>
+              <h3 class="mb-0">Space Exploration</h3>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 portfolio-card reveal" data-category="Architecture">
+            <button type="button" class="portfolio-open w-100 border-0 p-0 text-start bg-transparent"
+              data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="sVTsm3hJwq0"
+              data-video-title="Modern Building Design" data-video-category="Architecture"
+              aria-label="Play Modern Building Design video">
+              <span class="card-media d-block">
+                <img src="images/Category/Architecture/modern_building_design.webp"
+                  alt="Modern Building Design video thumbnail" width="1279" height="719" loading="lazy">
+                <span class="card-media-overlay">
+                  <span class="overlay-play"><i class="fa-solid fa-play" aria-hidden="true"></i></span>
+                  <span class="play-hint">Watch Video</span>
+                </span>
+              </span>
+            </button>
+            <div class="card-caption">
+              <span class="d-block card-cat">Architecture</span>
+              <h3 class="mb-0">Modern Building Design</h3>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 portfolio-card reveal" style="transition-delay: 0.1s"
+            data-category="Architecture">
+            <button type="button" class="portfolio-open w-100 border-0 p-0 text-start bg-transparent"
+              data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="8N-r4WSEZBY"
+              data-video-title="Architectural Masterpiece" data-video-category="Architecture"
+              aria-label="Play Architectural Masterpiece video">
+              <span class="card-media d-block">
+                <img src="images/Category/Architecture/architectural_masterpiece.webp"
+                  alt="Architectural Masterpiece video thumbnail" width="1279" height="719" loading="lazy">
+                <span class="card-media-overlay">
+                  <span class="overlay-play"><i class="fa-solid fa-play" aria-hidden="true"></i></span>
+                  <span class="play-hint">Watch Video</span>
+                </span>
+              </span>
+            </button>
+            <div class="card-caption">
+              <span class="d-block card-cat">Architecture</span>
+              <h3 class="mb-0">Architectural Masterpiece</h3>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 portfolio-card reveal" style="transition-delay: 0.2s" data-category="Monk">
+            <button type="button" class="portfolio-open w-100 border-0 p-0 text-start bg-transparent"
+              data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="pGgV46Cfxis"
+              data-video-title="Zen Meditation Journey" data-video-category="Monk"
+              aria-label="Play Zen Meditation Journey video">
+              <span class="card-media d-block">
+                <img src="images/Category/Monk/zen_meditation_journey.webp" alt="Zen Meditation Journey video thumbnail"
+                  width="1279" height="719" loading="lazy">
+                <span class="card-media-overlay">
+                  <span class="overlay-play"><i class="fa-solid fa-play" aria-hidden="true"></i></span>
+                  <span class="play-hint">Watch Video</span>
+                </span>
+              </span>
+            </button>
+            <div class="card-caption">
+              <span class="d-block card-cat">Monk</span>
+              <h3 class="mb-0">Zen Meditation Journey</h3>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 portfolio-card reveal" style="transition-delay: 0.3s" data-category="Monk">
+            <button type="button" class="portfolio-open w-100 border-0 p-0 text-start bg-transparent"
+              data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="-xFN7QF4r64"
+              data-video-title="Mindful Living Guide" data-video-category="Monk"
+              aria-label="Play Mindful Living Guide video">
+              <span class="card-media d-block">
+                <img src="images/Category/Monk/mindful_living_guide.webp" alt="Mindful Living Guide video thumbnail"
+                  width="1279" height="719" loading="lazy">
+                <span class="card-media-overlay">
+                  <span class="overlay-play"><i class="fa-solid fa-play" aria-hidden="true"></i></span>
+                  <span class="play-hint">Watch Video</span>
+                </span>
+              </span>
+            </button>
+            <div class="card-caption">
+              <span class="d-block card-cat">Monk</span>
+              <h3 class="mb-0">Mindful Living Guide</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Contact
+         ==================================================================== -->
+    <section class="contact-section section-pad" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title reveal" id="contact-title">
+            Get In <span class="text-gradient">Touch</span>
+          </h2>
+          <div class="section-divider reveal" aria-hidden="true"></div>
+          <p class="section-lead reveal" style="transition-delay: 0.05s">
+            Have questions about our AI video capabilities? Reach out to us!
+          </p>
+        </div>
+
+        <div class="row g-4 g-lg-5 align-items-start">
+          <!-- Contact form -->
+          <div class="col-lg-7 reveal">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="John Doe"
+                    autocomplete="name" required>
+                  <div class="invalid-feedback" id="name-feedback"></div>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com"
+                    autocomplete="email" required>
+                  <div class="invalid-feedback" id="email-feedback"></div>
+                </div>
+                <div class="col-12">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input type="text" class="form-control" id="subject" name="subject" placeholder="How can we help?"
+                    required>
+                  <div class="invalid-feedback" id="subject-feedback"></div>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5"
+                    placeholder="Tell us about your project..." required></textarea>
+                  <div class="invalid-feedback" id="message-feedback"></div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-gradient btn-submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- Contact information -->
+          <div class="col-lg-5 reveal" style="transition-delay: 0.1s">
+            <aside class="info-card">
+              <h3>Contact Information</h3>
+
+              <div class="contact-row">
+                <span class="icon-chip"><i class="fa-solid fa-envelope" aria-hidden="true"></i></span>
+                <div>
+                  <h4>Email</h4>
+                  <p><a href="mailto:contact@videofystudios.com">contact@videofystudios.com</a></p>
+                </div>
+              </div>
+
+              <h3>Follow Us</h3>
+              <div class="social-row">
+                <a class="social-icon" href="https://x.com/videofystudio" target="_blank" rel="noopener noreferrer"
+                  aria-label="Videofy Studios on X (Twitter)">
+                  <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+                </a>
+                <a class="social-icon" href="https://www.linkedin.com/company/videofyaistudios" target="_blank"
+                  rel="noopener noreferrer" aria-label="Videofy Studios on LinkedIn">
+                  <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+                <a class="social-icon" href="https://www.facebook.com/profile.php?id=61570953320288" target="_blank"
+                  rel="noopener noreferrer" aria-label="Videofy Studios on Facebook">
+                  <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                </a>
+                <a class="social-icon" href="https://www.pinterest.com/VideoFYStudios/" target="_blank"
+                  rel="noopener noreferrer" aria-label="Videofy Studios on Pinterest">
+                  <i class="fa-brands fa-pinterest-p" aria-hidden="true"></i>
+                </a>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================================================
+       Footer
+       ====================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4 g-lg-5">
+        <!-- Company info -->
+        <div class="col-lg-5">
+          <a class="brand-logo d-inline-block" href="index.html" aria-label="Videofy Studios - Home">
+            <img class="brand-logo" src="images/logo.png" alt="Videofy Studios" width="1873" height="486">
+          </a>
+          <p class="footer-about">
+            Revolutionizing video production through the power of artificial
+            intelligence. Creating stunning, professional videos that captivate
+            your audience.
+          </p>
+          <div class="social-row">
+            <a class="social-icon" href="https://x.com/videofystudio" target="_blank" rel="noopener noreferrer"
+              aria-label="Videofy Studios on X (Twitter)">
+              <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="social-icon" href="https://www.linkedin.com/company/videofyaistudios" target="_blank"
+              rel="noopener noreferrer" aria-label="Videofy Studios on LinkedIn">
+              <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+            </a>
+            <a class="social-icon" href="https://www.facebook.com/profile.php?id=61570953320288" target="_blank"
+              rel="noopener noreferrer" aria-label="Videofy Studios on Facebook">
+              <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+            </a>
+            <a class="social-icon" href="https://www.pinterest.com/VideoFYStudios/" target="_blank"
+              rel="noopener noreferrer" aria-label="Videofy Studios on Pinterest">
+              <i class="fa-brands fa-pinterest-p" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick links -->
+        <div class="col-md-6 col-lg-3">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-md-6 col-lg-4">
+          <h3>Contact Us</h3>
+          <div class="footer-contact">
+            <address>
+              <a href="mailto:contact@videofystudios.com">contact@videofystudios.com</a>
+            </address>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> Videofy Studios. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       Video modal (shared by the hero demo and portfolio items)
+       ====================================================================== -->
+  <div class="modal fade video-modal" id="videoModal" tabindex="-1" aria-labelledby="videoModalTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div>
+            <h3 class="modal-title" id="videoModalTitle"></h3>
+            <p class="modal-cat" id="videoModalCat"></p>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close video"></button>
+        </div>
+        <div class="modal-body p-0">
+          <div class="video-embed ratio ratio-16x9">
+            <iframe id="videoModalFrame" title="Videofy Studios video player" src="about:blank"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vendor JS -->
+  <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+  <!-- Site JS -->
+  <script src="js/script.js" defer></script>
+</body>
+
+</html>
