@@ -56,7 +56,9 @@ A modern, responsive landing page for an AI-powered video production studio. Vid
 - Touch-friendly buttons, form fields, and modal interactions
 - Fluid grid system that adapts perfectly to any screen size
 
-![Mobile Responsive View](Screenshots/mobile-view.png)
+<p align="center">
+  <img src="Screenshots/mobile-view.png" alt="Mobile Responsive View" width="300">
+</p>
 
 ### 🎨 UI, Animations, and Accessibility
 
