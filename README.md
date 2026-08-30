@@ -29,7 +29,6 @@ A modern, responsive landing page for an AI-powered video production studio. Vid
 - Animated statistical counters that trigger on scroll
 - Integrated demo video card with a custom tilt effect
 
-<!-- Screenshot slot: Screenshots/hero-section.png -->
 ![Hero Section](Screenshots/hero-section.png)
 
 ### 🎥 Dynamic Portfolio Gallery
@@ -39,7 +38,6 @@ A modern, responsive landing page for an AI-powered video production studio. Vid
 - YouTube video integration via a shared custom modal
 - Playable video thumbnails with hover overlays
 
-<!-- Screenshot slot: Screenshots/portfolio.png -->
 ![Portfolio Gallery](Screenshots/portfolio.png)
 
 ### ✉️ Interactive Contact Form
@@ -49,7 +47,6 @@ A modern, responsive landing page for an AI-powered video production studio. Vid
 - Responsive layout adapting to mobile and desktop
 - Graceful submission handling
 
-<!-- Screenshot slot: Screenshots/contact-form.png -->
 ![Contact Form](Screenshots/contact-form.png)
 
 ### 📱 Mobile Responsiveness
@@ -59,7 +56,6 @@ A modern, responsive landing page for an AI-powered video production studio. Vid
 - Touch-friendly buttons, form fields, and modal interactions
 - Fluid grid system that adapts perfectly to any screen size
 
-<!-- Screenshot slot: Screenshots/mobile-view.png -->
 ![Mobile Responsive View](Screenshots/mobile-view.png)
 
 ### 🎨 UI, Animations, and Accessibility
@@ -116,8 +112,8 @@ No build tools or backend dependencies are required. A modern web browser is all
 
 ```bash
 # Clone the repository
-git clone https://github.com/tasmiul/videofy-studios.git
-cd videofy-studios
+git clone https://github.com/tasmiul/videofy-studios-website.git
+cd videofy-studios-website
 ```
 
 ### Running the Project
