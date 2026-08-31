@@ -2,16 +2,17 @@
 
 A modern, responsive landing page for an AI-powered video production studio. Videofy Studios showcases AI video generation capabilities, automated editing, and content creation services through an interactive, visually engaging interface.
 
-> **Project Status:** Active
-> **License:** MIT
-
-![Videofy Studios home page](Screenshots/homepage.png)
-
 <p align="center">
   <a href="https://tasmiul.github.io/videofy-studios-website/" target="_blank">
     <strong>🌐 View Live Demo →</strong>
   </a>
 </p>
+
+> **Project Status:** Active
+> **License:** MIT
+
+![Videofy Studios home page](Screenshots/homepage.png)
+
 
 ---
 
