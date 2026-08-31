@@ -7,6 +7,12 @@ A modern, responsive landing page for an AI-powered video production studio. Vid
 
 ![Videofy Studios home page](Screenshots/homepage.png)
 
+<p align="center">
+  <a href="https://tasmiul.github.io/videofy-studios-website/" target="_blank">
+    <strong>🌐 View Live Demo →</strong>
+  </a>
+</p>
+
 ---
 
 ## Table of Contents
